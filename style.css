@@ -1,0 +1,48 @@
+:root{
+    --primary: rgb(16, 6, 129);
+    --secondary: rgba(35, 254, 243, 0.979);
+   
+}
+
+body
+{
+    width: 100vw;
+    height:100vh;
+    margin:0;
+    font-family: 'Pacifico', cursive;
+    font-size: 4.6rem;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    background: linear-gradient(135deg, var(--primary),var(--secondary)),
+    center center / cover;
+}
+
+h2{
+  align-items: center;
+   text-align: center;
+
+   justify-content: center;
+   text-transform: full-size-kana;
+   text-decoration: underline;
+   text-decoration-color: rgb(72, 145, 209);
+   -webkit-animation: glow 2s ease-in-out infinite alternate;
+   -moz-animation: glow 2s ease-in-out infinite alternate;
+   animation: glow 2s ease-in-out infinite alternate;
+ }
+ 
+ @-webkit-keyframes glow {
+      from {
+        color: rgba(96, 191, 246, 0.901);
+     text-shadow: 0 0 10px rgb(72, 145, 209), 0 0 20px rgb(72, 145, 209), 0 0 30px rgb(72, 145, 209), 0 0 40px rgb(72, 145, 209), 
+     0 0 50px rgb(72, 145, 209), 0 0 60px rgb(72, 145, 209), 0 0 70px rgb(72, 145, 209), 0 0 90px rgb(72, 145, 209);
+   }
+   
+   to {
+      color: aquamarine;
+     text-shadow: 0 0 20px rgb(72, 145, 209), 0 0 30px rgb(72, 145, 209), 0 0 40px rgb(72, 145, 209), 
+     0 0 50px rgb(72, 145, 209), 0 0 60px rgb(72, 145, 209), 0 0 70px rgb(72, 145, 209), 0 0 80px rgb(72, 145, 209), 0 1 90px rgb(72, 145, 209);
+   }
+}
+
+
